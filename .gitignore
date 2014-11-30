@@ -9,3 +9,5 @@ wwwroot/
 *.suo
 *.user
 *.log
+
+.DS_Store

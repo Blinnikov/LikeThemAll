@@ -1,0 +1,242 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Contr",
+				"controller"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Kulture/ASP.NET.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ru",
+				"Run K Commands"
+			],
+			[
+				"run",
+				"Run K Commands"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"contr",
+				"Package Control: Install Package"
+			],
+			[
+				"con",
+				"Package Control: Install Package"
+			],
+			[
+				"contro",
+				"Package Control: Install Package"
+			],
+			[
+				"PacCIP",
+				"Package Control: Install Package"
+			],
+			[
+				"Run ",
+				"Run K Commands"
+			],
+			[
+				"PCIP",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Co",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 210.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/Toshiba/Users/igor/Developer/Projects/LikeThemAll"
+	],
+	"file_history":
+	[
+		"/Volumes/Toshiba/Users/igor/Developer/Projects/Test01/project.json",
+		"/Volumes/Toshiba/Users/igor/Library/Application Support/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
+		"/Volumes/Toshiba/Users/igor/Library/Application Support/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
+		"/Volumes/Toshiba/Users/igor/Developer/Projects/Test01/Startup.cs",
+		"/Volumes/Toshiba/Users/igor/Developer/Projects/Test01/Test01.sublime-project",
+		"/Volumes/Toshiba/Users/igor/Developer/Projects/Test01/Controllers/HomeController.cs",
+		"/Volumes/Toshiba/Users/igor/Developer/Projects/Test01/Views/Home/Index.cshtml",
+		"/Volumes/Toshiba/Users/igor/Developer/Projects/Test01/Views/Shared/_Layout.cshtml",
+		"/Volumes/Toshiba/Users/igor/Developer/Projects/Test01/Models/TodoItem.cs",
+		"/Volumes/Toshiba/Users/igor/Developer/Projects/Test01/Models/User.cs",
+		"/Volumes/Toshiba/Users/igor/Library/Application Support/Sublime Text 3/Packages/OmniSharp/Default.sublime-keymap",
+		"/Volumes/Toshiba/Users/igor/Library/Application Support/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/Volumes/Toshiba/Users/igor/Developer/Projects/Test01/testconsoleprj.sln.sublime-project",
+		"/Volumes/Toshiba/Users/igor/Library/Application Support/Sublime Text 3/Packages/User/C#.sublime-settings",
+		"/Volumes/Toshiba/Users/igor/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/Toshiba/Users/igor/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Toshiba/Users/igor/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Volumes/Toshiba/Users/igor/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/igor/Developer/Projects/Feel/WebApplication/Startup.cs",
+		"/Users/igor/Developer/Projects/Feel/Con1/project.json",
+		"/Users/igor/Developer/Projects/Feel/F1/Controllers/HomeController.cs",
+		"/Users/igor/WebstormProjects/LetMeNode/node_modules/socket.io/Readme.md"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"            \n",
+			"}\n",
+			"};\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 185.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 212.0
+	},
+	"project": "LikeThemAll.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
