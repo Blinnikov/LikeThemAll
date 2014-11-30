@@ -1,16 +1,27 @@
 ﻿{
     "version": "1.0.0-*",
     "dependencies": {
+        "Newtonsoft.Json": "6.0.6",
+        "System.Threading.Tasks": "4.0.10-beta-22231"
     },
 
-    "frameworks" : {
-        "aspnet50" : { 
+    "frameworks": {
+        "aspnet50": {
             "dependencies": {
+                "Microsoft.Net.Http": "2.2.22",
             }
         },
-        "aspnetcore50" : { 
+        "aspnetcore50": {
             "dependencies": {
-                "System.Runtime": "4.0.20-beta-22231"
+                "System.Runtime": "4.0.20-beta-22231",
+                "System.Runtime.Extensions": "4.0.10-beta-22231",
+                "System.Net.Http": "4.0.0-beta-22231",
+                "System.Collections": "4.0.10-beta-22231",
+                "System.Security.Cryptography.Hashing.Algorithms": "4.0.0-beta-22231",
+                "System.Text.Encoding.Extensions": "4.0.10-beta-22231",
+                "System.Linq": "4.0.0-beta-22231",
+                "System.Globalization": "4.0.10-beta-22231",
+                "System.Text.RegularExpressions": "4.0.10-beta-22231"
             }
         }
     }

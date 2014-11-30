@@ -32,11 +32,16 @@ namespace LikeThemAll
             // You need to add Microsoft.AspNet.Mvc.WebApiCompatShim package to project.json
             // services.AddWebApiConventions();
 
+            services.AddCachingServices();
+
+            services.AddSingleton<IConfiguration>(_ => Configuration);
         }
 
         // Configure is called after ConfigureServices is called.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerfactory)
         {
+            app.UseInMemorySession();
+
             // Configure the HTTP request pipeline.
             // Add the console logger.
             loggerfactory.AddConsole();

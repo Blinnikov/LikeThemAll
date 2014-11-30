@@ -1,12 +1,8 @@
 ﻿{
-    "Data": {
-        "DefaultConnection": { 
-            "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-LikeThemAll-e29ff7a7-2736-4ca9-807a-694ca42661d1;Trusted_Connection=True;MultipleActiveResultSets=true"
-        }
-    },
-    "EntityFramework": {
-        "ApplicationDbContext": {
-            "ConnectionStringKey": "Data:DefaultConnection:ConnectionString"
-        }
+    "InstaSharp": {
+        "ClientId": "client id goes here",
+        "ClientSecret": "client secret goes here",
+        "WebsiteUrl": "url goes here",
+        "RedirectUri": "http://localhost:5105/done"
     }
 }
