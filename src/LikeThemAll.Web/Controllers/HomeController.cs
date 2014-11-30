@@ -9,6 +9,7 @@ namespace LikeThemAll.Controllers
     {
         public IActionResult Index()
         {
+            var req = new InstaSharp.InstaRequest();
             return View();
         }
 
