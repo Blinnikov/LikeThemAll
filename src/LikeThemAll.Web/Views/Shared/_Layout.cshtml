@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
 
+    <link rel="stylesheet" href="~/lib/angular-material/angular-material.css">
+    <!-- extra, overriding theme files -->
+    <link rel="stylesheet" href="~/lib/angular-material/themes/indigo-theme.css">
+    <link rel="stylesheet" href="~/lib/angular-material/themes/green-theme.css">
+
     <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body>
+<body ng-app="app">
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -38,6 +43,17 @@
     </div>
     <script src="~/lib/jquery/js/jquery.js"></script> 
     <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+
+    <script src="~/lib/angular/angular.js"></script>
+    <script src="~/lib/angular-aria/angular-aria.js"></script>
+    <script src="~/lib/angular-animate/angular-animate.js"></script>
+    <script src="~/lib/hammerjs/hammer.js"></script>
+    <script src="~/lib/angular-material/angular-material.js"></script>
+
+    <script src="~/app/app.module.js"></script>
+    <script src="~/app/controllers/homePage.controller.js"></script>
+    <script src="~/app/app.config.js"></script>
+
     @RenderSection("scripts", required: false)
 </body>
 </html>

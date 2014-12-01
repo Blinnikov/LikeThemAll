@@ -2,7 +2,12 @@
 // Click here to learn more. http://go.microsoft.com/fwlink/?LinkID=513275&clcid=0x409
 
 module.exports = function (grunt) {
+    // The following line loads the grunt plugins.
+    // This line needs to be at the end of this this file.
+    grunt.loadNpmTasks("grunt-bower-task");
+
     grunt.initConfig({
+        staticFilePattern: "**/*.{js,css,map,html,htm,ico,jpg,jpeg,png,gif,eot,svg,ttf,woff}",
         bower: {
             install: {
                 options: {
@@ -17,7 +22,5 @@ module.exports = function (grunt) {
     // This command registers the default task which will install bower packages into wwwroot/lib
     grunt.registerTask("default", ["bower:install"]);
 
-    // The following line loads the grunt plugins.
-    // This line needs to be at the end of this this file.
-    grunt.loadNpmTasks("grunt-bower-task");
+    require("grunt-ide-support")(grunt);
 };
