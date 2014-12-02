@@ -12,7 +12,10 @@ namespace LikeThemAll.Controllers
         {
             var connectionString = "mongodb://localhost:27017";
             var client = new MongoClient(connectionString);
-            return View();
+            var server = client.GetServer();
+            var db = server.GetDatabase("test");
+            var collectionName = db.GetCollection("Igor-Blinnikov").FullName;
+            return View("Index", collectionName);
         }
     }
 }
