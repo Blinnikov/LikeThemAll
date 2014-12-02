@@ -10,8 +10,8 @@
             "dependencies": {
                 "Microsoft.Net.Http": "2.2.22",
             }
-        },
-        "aspnetcore50": {
+        }
+        /*"aspnetcore50": {
             "dependencies": {
                 "System.Runtime": "4.0.20-beta-22231",
                 "System.Runtime.Extensions": "4.0.10-beta-22231",
@@ -23,6 +23,6 @@
                 "System.Globalization": "4.0.10-beta-22231",
                 "System.Text.RegularExpressions": "4.0.10-beta-22231"
             }
-        }
+        }*/
     }
 }
